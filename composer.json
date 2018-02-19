@@ -21,14 +21,11 @@
     },
     "autoload": {
         "classmap": ["src/Spec/validator-generated.php"],
-        "psr-0": {"Lullabot\\AMP": "src"}
+        "psr-4": {"Lullabot\\AMP\\": "src"}
     },
     "require-dev": {
         "php" : ">=5.5.0",
         "phpunit/phpunit": "4.8.*",
         "symfony/console": "^2.7.0"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
-
+    }
 }
